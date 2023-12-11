@@ -3,6 +3,8 @@ In this Repository I am making notes for interviews of java and for those who wa
 
 ---
 
++  Create `demo.java` file and copy paste example and run
+
 ## Topics We cover ⬇️
 
 + ### [Encapsulation](https://github.com/saurabhbahadur/java-prep/blob/main/Encapsulation.md)
