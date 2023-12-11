@@ -6,7 +6,7 @@ In this Repository I am making notes for interviews of java and for those who wa
 ## Topics We cover ⬇️
 
 + ### [Encapsulation](https://github.com/saurabhbahadur/java-prep/blob/main/Encapsulation.md)
-+ ###  Constructor *Coming soon...*
++ ###  [Constructor](https://github.com/saurabhbahadur/java-prep/blob/main/Constructor.md)
 + ###  Inheritance *Coming soon...*
 + ###  Polymorpphism *Coming soon...*
 + ###  Abstraction *Coming soon...*
