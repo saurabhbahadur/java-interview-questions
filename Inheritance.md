@@ -20,7 +20,7 @@
 + Single-level inheritance
 + Multi-level inheritance
 + Hierarchical inheritance
-+ Multiple inheritance
++ Multiple inheritance (it achieve form interface...)
 
 ## Single-level Inheritance
 
