@@ -13,9 +13,8 @@ In this Repository I am making notes for interviews of java and for those who wa
 + ###  [Polymorpphism](https://github.com/saurabhbahadur/java-prep/blob/main/Polymorphism.md)
 + ###  [Abstraction](https://github.com/saurabhbahadur/java-prep/blob/main/Abstraction.md)
 + ###  [Interface](https://github.com/saurabhbahadur/java-prep/blob/main/Interface.md)
-+ ###  Exception *Coming soon...*
++ ###  [Exception](https://github.com/saurabhbahadur/java-prep/blob/main/Exception.md)
 + ###  Collection *Coming soon...*
-+ ###  Constructor *Coming soon...*
   + List
   + Queue
   + Set
@@ -30,8 +29,7 @@ In this Repository I am making notes for interviews of java and for those who wa
 + ###  API *Coming soon...*
 + ###  ENUMS *Coming soon...*
 + ###  Thread *Coming soon...*
-+ ###  Genrics *Coming soon...*
-+ and more.............
+
 
 ---
 
