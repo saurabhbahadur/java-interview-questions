@@ -12,7 +12,7 @@ In this Repository I am making notes for interviews of java and for those who wa
 + ###  [Inheritance](https://github.com/saurabhbahadur/java-prep/blob/main/Inheritance.md)
 + ###  [Polymorpphism](https://github.com/saurabhbahadur/java-prep/blob/main/Polymorphism.md)
 + ###  [Abstraction](https://github.com/saurabhbahadur/java-prep/blob/main/Abstraction.md)
-+ ###  Interface *Coming soon...*
++ ###  [Interface](https://github.com/saurabhbahadur/java-prep/blob/main/Interface.md)
 + ###  Exception *Coming soon...*
 + ###  Collection *Coming soon...*
 + ###  Constructor *Coming soon...*
