@@ -11,7 +11,7 @@ In this Repository I am making notes for interviews of java and for those who wa
 + ###  [Constructor](https://github.com/saurabhbahadur/java-prep/blob/main/Constructor.md)
 + ###  [Inheritance](https://github.com/saurabhbahadur/java-prep/blob/main/Inheritance.md)
 + ###  [Polymorpphism](https://github.com/saurabhbahadur/java-prep/blob/main/Polymorphism.md)
-+ ###  Abstraction *Coming soon...*
++ ###  [Abstraction](https://github.com/saurabhbahadur/java-prep/tree/main)
 + ###  Interface *Coming soon...*
 + ###  Exception *Coming soon...*
 + ###  Collection *Coming soon...*
