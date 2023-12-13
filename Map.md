@@ -6,14 +6,13 @@
 + A Map is useful if you have to search, update or delete elements on the basis of a key.
 
 ### Map Hierarchy
-
 + Map
-        + HashTable
-        + HashMap
-            + LinkedHashMap
-        + SortedMap
-            + NavigableMap
-            + TreeMap
+  + HashTable
+  + HashMap
+    + LinkedHashMap
+  + SortedMap
+    + NavigableMap
+    + TreeMap
 
 ### HashMap
 + Java HashMap allows null key and null values.
