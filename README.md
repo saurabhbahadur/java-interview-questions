@@ -29,6 +29,14 @@ In this Repository I am making notes for interviews of java and for those who wa
         + Linked Hashset
        + Sorted Set
         + Tree Set
++ ### [Map](https://github.com/saurabhbahadur/java-prep/blob/main/Map.md)
+  + HashTable
+  + HashMap
+    + LinkedHashMap
+  + SortedMap
+    + NavigableMap
+    + TreeMap
+  
 + ###  Genrics *Coming soon...*
 + ###  Files Operation *Coming soon...*
 + ###  API *Coming soon...*
