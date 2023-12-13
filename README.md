@@ -15,7 +15,6 @@ In this Repository I am making notes for interviews of java and for those who wa
 + ###  [Interface](https://github.com/saurabhbahadur/java-prep/blob/main/Interface.md)
 + ###  [Exception](https://github.com/saurabhbahadur/java-prep/blob/main/Exception.md)
 + ###  [Collection](https://github.com/saurabhbahadur/java-prep/blob/main/Collection.md)
-  + Collections
     + List
       + Array List
       + Linked List
