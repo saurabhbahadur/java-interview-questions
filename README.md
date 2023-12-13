@@ -16,20 +16,20 @@ In this Repository I am making notes for interviews of java and for those who wa
 + ###  [Exception](https://github.com/saurabhbahadur/java-prep/blob/main/Exception.md)
 + ###  [Collection](https://github.com/saurabhbahadur/java-prep/blob/main/Collection.md)
   + Collections
-        + List
-            + Array List
-            + Linked List
-            + Vector
-            + Stack
-        + Queue
-            + Priority Queue
-            + Deque
-            + Array Dequeue
-        + Set
-            + Hash Set
-            + Linked Hashset
-            + Sorted Set
-            + Tree Set
+    + List
+      + Array List
+      + Linked List
+      + Vector
+      + Stack
+    + Queue
+      + Priority Queue
+      + Deque
+      + Array Dequeue
+     + Set
+       + Hash Set
+        + Linked Hashset
+       + Sorted Set
+        + Tree Set
 + ###  Genrics *Coming soon...*
 + ###  Files Operation *Coming soon...*
 + ###  API *Coming soon...*
