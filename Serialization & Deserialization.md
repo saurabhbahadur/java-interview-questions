@@ -1,5 +1,5 @@
 <h1 align="center"> Serialization and Deserialization </h1>
-<p align="center" > (file operation) </p>
+<p align="center" > ( converts the state of an object into a byte stream) </p>
 
 ### Serialization(1.1v)
 + The process of saving (or) writing state of an object to a file is called Serialization but strictly speaking it is the process of converting an object from java supported form to either network supported form to either network supported form to either network supported form (or) file supported form.
