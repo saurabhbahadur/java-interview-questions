@@ -1,6 +1,8 @@
 <h1 align="center" > Polymorphism </h1>
 <p align="center" > (One thing exists in more than on form) </p>
 
+## If one task is performed in different ways, it is known as polymorphism. For example: to convince the customer differently, to draw something, for example, shape, triangle, rectangle, etc
+
 ### Polymorphism
 + If one thing exists in more than one form , then it is called Polymorphism.
 + Polymorphism is a Greek word, where `Poly` means many and `morphism` means structures or forms.
