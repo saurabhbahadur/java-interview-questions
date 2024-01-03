@@ -1,6 +1,8 @@
 <h1 align="center" > Inheritance </h1>
 <p align="center" > (Used to inherit other class) </p>
 
+## When one object acquires all the properties and behaviours of a parent  object, it is known as inheritance.
+
 ### Inheritance
 + It is one of the pillar of Object Orientation.
 + It always speaks about reusability.
