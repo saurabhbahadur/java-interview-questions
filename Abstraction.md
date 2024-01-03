@@ -1,6 +1,8 @@
 <h1 align="center" > Abstraction </h1>
 <p align="center" > (Hiding unnecessary details) </p>
 
+## Hiding internal details and showing functionality is known as abstraction. For example phone call, we don't know the internal processing
+
 ### Abstraction
 + Data Abstraction is the process of hiding certain details and showing only essential information to the user.
 
