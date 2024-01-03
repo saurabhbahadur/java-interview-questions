@@ -39,6 +39,7 @@ In this Repository I am making notes for interviews of java and for those who wa
   
 + ###  [Generics](https://github.com/saurabhbahadur/java-prep/blob/main/Generics.md)
 + ###  [Files Operation](https://github.com/saurabhbahadur/java-prep/blob/main/FilesOperation.md)
++ ### [Serialization & Deserialization](https://github.com/saurabhbahadur/java-prep/blob/main/Serialization%20%26%20Deserialization.md)
 + ###  API *Coming soon...*
 + ###  ENUMS *Coming soon...*
 + ###  Thread *Coming soon...*
