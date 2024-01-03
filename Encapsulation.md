@@ -1,6 +1,8 @@
 <h1 align="center" > Encapsulation </h1>
 <p align="center" > ( aim to restrict direct access ) </p>
 
+## Binding code and data together into a single unit are known as encapsulation. For example, a capsule, it is wrapped with different medicines.
+
 ### Encapsulation
 + Binding of `data` and corresponding `methods` into a single unit is called "Encapsulation".
 + If any java class follows `data hiding` and `abstraction` then such class is referred as "Encapsulation class"
