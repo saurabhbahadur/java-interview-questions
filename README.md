@@ -42,7 +42,7 @@ In this Repository I am making notes for interviews of java and for those who wa
 + ### [Serialization & Deserialization](https://github.com/saurabhbahadur/java-prep/blob/main/Serialization%20%26%20Deserialization.md)
 + ###  [Application Programming Interface (Stream*)](https://github.com/saurabhbahadur/java-prep/blob/main/API.md)
 + ###  [ENUMS and Annotation](https://github.com/saurabhbahadur/java-prep/blob/main/Enums%20%26%20Annotations.md)
-+ ###  Thread *Coming soon...*
++ ###  [Thread](https://github.com/saurabhbahadur/java-prep/blob/main/Thread.md)
 
 
 ---
