@@ -78,6 +78,11 @@ public void setName(String name) {
         this.name = name; // Setters for Name
     }
 ```
+
+<h1 align="center" > Interview Question </h1>
+
+<h1> 1. What is Encapsulation in Java? Why is it called Data hiding?</h1>
+<h5>Ans:</h5> `Encapsulation` refers to the bundling of fields and methods inside a single class. `Data Hiding`
 ***
 
 # Feel Free to connect
