@@ -83,6 +83,28 @@ public void setName(String name) {
 
 <h1> 1. What is Encapsulation in Java? Why is it called Data hiding?</h1>
 <h5>Ans:</h5> `Encapsulation` refers to the bundling of fields and methods inside a single class. `Data Hiding`
+
+***
+
+### More Topics
+
++ ### [Encapsulation](https://github.com/saurabhbahadur/java-prep/blob/main/Encapsulation.md)
++ ###  [Constructor](https://github.com/saurabhbahadur/java-prep/blob/main/Constructor.md)
++ ###  [Inheritance](https://github.com/saurabhbahadur/java-prep/blob/main/Inheritance.md)
++ ###  [Polymorpphism](https://github.com/saurabhbahadur/java-prep/blob/main/Polymorphism.md)
++ ###  [Abstraction](https://github.com/saurabhbahadur/java-prep/blob/main/Abstraction.md)
++ ###  [Interface](https://github.com/saurabhbahadur/java-prep/blob/main/Interface.md)
++ ###  [Exception](https://github.com/saurabhbahadur/java-prep/blob/main/Exception.md)
++ ###  [Collection](https://github.com/saurabhbahadur/java-prep/blob/main/Collection.md)
++ ### [Map](https://github.com/saurabhbahadur/java-prep/blob/main/Map.md)
++ ###  [Generics](https://github.com/saurabhbahadur/java-prep/blob/main/Generics.md)
++ ###  [Files Operation](https://github.com/saurabhbahadur/java-prep/blob/main/FilesOperation.md)
++ ### [Serialization & Deserialization](https://github.com/saurabhbahadur/java-prep/blob/main/Serialization%20%26%20Deserialization.md)
++ ###  [Application Programming Interface (Stream*)](https://github.com/saurabhbahadur/java-prep/blob/main/API.md)
++ ###  [ENUMS and Annotation](https://github.com/saurabhbahadur/java-prep/blob/main/Enums%20%26%20Annotations.md)
++ ###  [Thread](https://github.com/saurabhbahadur/java-prep/blob/main/Thread.md)
+
+
 ***
 
 # Feel Free to connect
