@@ -51,9 +51,10 @@
 || inclusive  OR| 
 |Logical |	logical AND |	&&
 |logical | OR |	||
-|Ternary v	ternary	| ? :
+|Ternary | 	ternary	| ? :
 |Assignment |	assignment |	= += -= *= /= %= &= ^= |= <<= >>= >>>=
 
+---
 
 ```java
 
