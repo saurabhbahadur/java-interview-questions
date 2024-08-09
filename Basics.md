@@ -83,7 +83,203 @@
         System.out.println(d);
 
 ```
+
         
+####  byte < short < int < long 
+        
+####  Default types 
++  numbers - `int`
++ decimal number - `double`
+        
+```java
+
+        System.out.println(12344);
+        System.out.println(13/4);
+        
+        int a = 12234273874848;
+        
+        long l = 12234273874848L;
+        System.out.println(l);
+        
+        double d = 14.456323637;
+        
+        float f = 14.456323F;
+        
+        System.out.println(f);
+        
+        char c = ' ';
+        
+        System.out.print(c);
+        System.out.println("hello");
+        
+        boolean b = false;
+        
+        System.out.println(b);
+```
+        
+### Units
+
+| Unit   |     |
+| ------------- | ------------- |
+| 1/0 | 1 bit |
+| 4 bits | 1 nibble |
+| 8 bits | 1 byte |
+| 1024 bytes | 1 KB|
+| 1024 KB | 1 MB |
+| 1024 MB | 1 GB |
+| 1024 GB | 1 TB |
+
+<p>1 KB - 1 kilobytes - 1024 bytes - 1024 * 8 bits </p>
+<p>1 Kb - 1 kilobits - 1024 bits</p>
+        
+### Size of data type
+
+| Data Type   |  Size    |
+| ------------- | ------------- |
+| byte | 1 byte |
+| short | 2 byte |
+| int | 4 bytes |
+| long | 8 bytes|
+| float | 4 bytes |
+| double | 8 bytes |
+| char | 2 bytes |
+| String | 2 * no. of chars |
+| boolean | 1 bit |     
+        
+### Type conversion
+<p>conversion of data from one type to another</p>
+
++ #### Implicit
+<p>Conversion that happens automatically</p>
+    
++ Storing a number to decimal number 
++ Storing a small box value into a large box
+
++ #### Explicit
+<p>Conversion done forcefully</p>
+
++ Storing a decimal number into number 
++ Storing a large box value into small box
+
+<p>left -> right -> Implicit</p>
+
+#### int -> long -> float -> double 
+
+<p>right->left -> Explicit</p>
+            
+```java
+
+    
+        long l = 1234747647448l;
+        
+        float f = l;
+        
+        System.out.println(f);
+        
+        double d = 10.3673;
+        
+        int a = (int)d;
+        
+        long l = 123436L;
+        
+        int a = (int) l;
+        
+        System.out.println(a);
+        
+        float f = 123.377f;
+        
+        double d = f;
+        
+        double d = 13.37484;
+        
+        float f = (float)d;
+        
+        System.out.println(f);
+        
+        int a = 13;
+        int b = 4;
+        
+        double d = (double)a / b;
+        
+        System.out.println(d);
+        
+        int a = 10;
+        int b = 0;
+        
+        int c = a / b;
+        
+        System.out.println(c);
+        
+        double d = 192.4894;
+        
+        int a = (int) d;
+        
+        System.out.println(a);
+
+```
+        
+#### Ranges of data types
+
++ `int` - 4 bytes -  -2^31 to 2^31-1
++ `long` - 8 bytes - -2^63 to 2^63-1
+         
+#### User input
+
+```java
+        Scanner sc = new Scanner(System.in);
+        nextInt(), nextLong(), nextFloat(), nextDouble(), nextBoolean()
+        next() - Reads the first word of input 
+        nextLine() - Reads the entire line of input
+
+```
+
+#### char input
+
+```java
+
+        char c = sc.next().charAt(0); 
+        
+        System.out.println(c);
+
+```
+       
+#### Math functions
+
+```java
+
+        System.out.println(Math.max(10, 23));
+        System.out.println(Math.min(10, 23));
+        System.out.println(Math.pow(3, 4)); // 3^4
+        System.out.println(Math.sqrt(25));
+        System.out.println(Math.round(12.55));
+        System.out.println(Math.floor(12.99));
+        System.out.println(Math.ceil(12.23));
+     
+        System.out.println(Math.ceil(-2.34));   
+        
+        System.out.println(Math.abs(-34));
+        
+        System.out.println((int)(Math.random() * 10000 + 1000));
+
+```
+        
+#### Precedence of operators - [ (*, /, %) (+, -) ]     
+        
+```java
+
+    
+        int s = 10 * 3 + 4; // 34
+
+        int s = 10 / 3 * 2 ; // 6  
+        
+        int s = 10 * 3 / 2 ; // 15 
+        
+        int s = 10 * (3 / 2);
+        
+        System.out.println(s);
+
+```
+
 
 
 ***
