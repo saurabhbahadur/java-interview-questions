@@ -56,6 +56,41 @@
 + We cannot access a variable before creation 
 + There cannot be 2 variables with the same name in the same scope 
 
+
+#### Scope
+<p>Area in which the variable is accessible </p>
+
++ A variable is only accessible in its scope
++ A variable is accessible in all the child scopes
+
+```java
+        
+        int a = 20;
+        {
+            System.out.println(a);
+            {
+                System.out.println(a);
+            }
+        }
+        
+        int a = 20;
+        {
+            int a = 10; // Error: Variable with the name a already exists 
+            System.out.println(a);
+        }
+        
+        {
+            int a = 10;
+            System.out.println(a);
+        }
+        
+        {
+            int a = 20;
+            System.out.println(a);
+        }
+
+```
+
         
 ### Arthmatic operators ( +, -, *, /, %  )
 
