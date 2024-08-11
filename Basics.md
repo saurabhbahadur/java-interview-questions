@@ -316,6 +316,132 @@
 ```
 
 
+#### Conditionals
+
+<p>If</p>
+
+```java
+     
+        if(condition) {
+            // statement/s;
+        }
+
+```
+
+#### Relational Operator
+
+<p> <, >, <=, >=, == (equals to), != (not equals to) </p>
+       
+
+#### Logical Operator
+
+<p> &&, ||, !  </p>
+
+<p>Precedence of logical operators - ! && || </p>
+        
+```java
+     // Check whether a number is in a range of 1 to 100 
+        
+        int a = sc.nextInt();
+        
+        if(1 <= a && a <= 100) {
+            System.out.println("In range");
+        }
+        else {
+            System.out.println("Not in range");
+        }
+        
+```
+        
+       
+        
+        
+#### ASCII - American standard code for information interchange 
+
++ a-z -> 97-122 
++ A-Z -> 65-90
++ 0-9 -> 48-57
+
+```java
+         char c = sc.next().charAt(0);
+        
+        if(c >= 'a' && c <= 'z') {
+            char c2 = (char)(c - 32);
+            
+            System.out.println(c2);
+        }
+```
+      
+##### Leap Year
+
++ divisible by 4 and not by 100 -> 2012, 2016, 2020, 1996 
++ divisible by  100 and by 400 -> 1600, 2000, 2400
+
+
+#### Any if block can have at max one else
+
+```java
+        int a = 5;
+        
+        if(a > 10) {
+            System.out.println("Hello");
+        }
+        else {
+            System.out.println("Hello 2");
+        }
+        else { // error: else without if 
+            System.out.println("Hello 3");
+        }
+```
+
+#### Without brackets we can have at max 1 statement as a part of if 
+
+```java
+        if(a > 3) 
+            System.out.println("Hello");
+            System.out.println("Hello 3");
+        else // error: else is without 
+            System.out.println("Hello 2");
+```
+        
+        
+    
+        
+#### Dangling else - Else always belong to the immediate if 
+        
+```java
+            int a = 5;
+        
+        if(a < 10) 
+            if(a > 20)
+                System.out.println("Hello");
+            else 
+                System.out.println("Hello 2");
+        
+        int a = 5;
+        
+        if(a > 10) 
+            if(a > 20)
+                System.out.println("Hello");
+            else 
+                System.out.println("Hello 2");
+        else 
+            System.out.println("Hello 3");
+        
+        int a = 5;
+        
+        if(a > 10) 
+            if(a > 20)
+                System.out.println("Hello");
+            else if(a < 15)
+                System.out.println("Hello 2");
+            else 
+                System.out.println("Hello 3");
+
+
+```
+
+
 
 ***
 
