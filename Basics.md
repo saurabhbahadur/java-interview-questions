@@ -25,12 +25,13 @@
 + All instruction/statement end with a semi-colon ( ; - Terminator )
 	    
 
-#### Three ways to print / Output
+#### Four ways to print / Output
 
 ```java
     System.out.println("Hello Arjun!!");
     System.out.print("hello");
     System.out.printf("%.5f", 123.45242);
+    System.out.println(String.format("%.4f", 12.34673637));
 ```
 
 | Data    | Data Types     |
@@ -438,6 +439,133 @@
             else 
                 System.out.println("Hello 3");
 
+
+```
+
+
+<h1 align="center" > Loops </h1>
+<p> Runs a code for some fixed number of times/iterations </p>
+
++ I -> C -> B -> U -> C -> B -> U -> C -> B -> U -> C -> B -> U -> C 
+
+```java
+
+    //  Product of all numbers from 1 to 10 
+        int p = 1;
+        
+        for(int i = 1; i <= 10; i = i + 1) {
+            p = p * i;
+        }
+        
+        System.out.println(p);
+
+```
+        
++ Factorial of a number  
+        
+```java
+        int n = sc.nextInt();
+        
+        int f = 1; 
+        
+        for(int i = 1; i <= n; i = i + 1) {
+            f = f * i;
+        }
+        
+        System.out.println(f);
+
+
+```
+        
+####    Flow control statement - break/continue 
+
+```java
+     
+        for(int i = 1; i <= 10; i = i + 1) {
+            if(i == 5) {
+                break;
+            }
+            System.out.println(i);
+        }
+        
+      
+        
+        for(int i = 1; i <= 10; i = i + 1) {
+            if(i == 5) {
+                continue;
+            }
+            System.out.println(i);
+        }
+
+```
+        
++ While loop
+    + C -> B -> C -> B -> C 
+      
+#### Digit manipulation 
+
+```java
+         // Print all digits of a number 
+        
+        int n = 3284;
+        int p = n;
+        
+        while(n > 0) {
+            int d = n % 10;
+            System.out.println(d);
+            n = n / 10;
+        }
+        
+        System.out.println(p);
+        
+
+```
+
++  Find the reverse of the number
+
+```java
+
+     int n = 23178;
+        
+        while(n > 0) {
+            int d = n % 10;
+            System.out.print(d);
+            n = n / 10;
+        }
+
+```
+      
++ Count trailing zeros in a number 
+        
+```java
+         int a = 102300;
+        int ct = 0;
+        
+        while(a > 0) {
+            int d = a % 10;
+            if(d == 0) {
+                ct = ct + 1;
+            }
+            else {
+                break;
+            }
+            a = a / 10;
+        }
+        
+        System.out.println(ct);
+
+```
+        
++ Factors of number
+
+```java
+      int n = 24;
+        
+        for(int i = 1; i <= n; i = i + 1) {
+            if(n % i == 0) {
+                System.out.println(i);
+            }
+        }
 
 ```
 
