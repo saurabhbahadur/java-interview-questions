@@ -568,6 +568,82 @@
         }
 
 ```
+#### do while
+
++ B -> C -> B -> C -> B -> C
+
++ `Entry controlled loops -` These are loops where condition check is happening prior to the body. Ex: `for`, `while` 
++ `Exit controlled loops -` These are loops where condition check happens after the body. Ex: `do while` 
+
+#### Nested Loops      
+
++ 
++ 
++ 
+
+#### Range question
+
++ Find the sum of digits of all the numbers in range of 1 to 50
+
+```java
+     for(int i = 1; i <= 50; i++) {
+            int n = i;
+            int sum = 0;
+            
+            while(n != 0) {
+                int d = n % 10;
+                sum = sum + d;
+                n = n / 10;
+            }
+            
+            System.out.println(sum);
+        }
+
+```
+
++ Find all the prime numbers in the range of 1 to 100 
+
+```java
+      
+        for(int j = 1; j <= 100; j = j + 1) {
+            int n = j;
+            int ct = 0;
+            
+            for(int i = 1; i <= n; i = i + 1) {
+                if(n % i == 0) {
+                    ct++;
+                }
+            }
+            
+            if(ct == 2) {
+                System.out.println(n);
+            }
+        }
+        
+
+```
+        
+#### Pattern printing
+
++ Outer loop should run for the number of  rows in pattern 
++ Inner loop should run for number of values in each row 
+
+```java
+    for(int i = 1; i <= 5; i = i + 1) {
+            for(int j = 1; j <= i; j = j + 1) {
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+        
+        // 1
+        // 12 
+        // 123 
+        // 1234 
+        // 12345 
+
+
+```
 
 
 
