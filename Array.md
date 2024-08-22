@@ -3,7 +3,13 @@
 
 + Arrays are immutable in size 
 + Default value is 0 
-+ Access an index not present in array - Index out of  bounds 
++ Access an index not present in array - Index out of  bounds
+
+
+ + Continous memory 
+    1. Advantage - Access of any value in array is a constant time operation 
+    2. Disadvanage - Size of array is fixed 
+
 
 + Sum of all values in array 
 
