@@ -10,6 +10,7 @@ In this Repository I am making notes for interviews of java and for those who wa
 + ### [Basic](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Basics.md)
 + ### [Introduction to Java](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Introduction%20to%20Java.md)
 + ### [Array](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Array.md)
++ ### [Time and Space Complexity](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Time%20%26%20Space%20Complexity.md)
 + ### [String](https://github.com/saurabhbahadur/java-interview-questions/blob/main/String.md)
 + ### [Encapsulation](https://github.com/saurabhbahadur/java-prep/blob/main/Encapsulation.md)
 + ###  [Constructor](https://github.com/saurabhbahadur/java-prep/blob/main/Constructor.md)
