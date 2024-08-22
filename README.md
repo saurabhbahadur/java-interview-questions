@@ -8,7 +8,8 @@ In this Repository I am making notes for interviews of java and for those who wa
 ## Topics We cover ⬇️
 
 + ### [Basic](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Basics.md)
-+ ### [Introduction to Java](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Introduction%20to%20Java.md) 
++ ### [Introduction to Java](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Introduction%20to%20Java.md)
++ ### [Array](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Array.md)
 + ### [String](https://github.com/saurabhbahadur/java-interview-questions/blob/main/String.md)
 + ### [Encapsulation](https://github.com/saurabhbahadur/java-prep/blob/main/Encapsulation.md)
 + ###  [Constructor](https://github.com/saurabhbahadur/java-prep/blob/main/Constructor.md)
