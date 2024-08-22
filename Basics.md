@@ -647,6 +647,31 @@
 
 
 
+<h1 align="center" > Function </h1>
+<p> Small code that does some small work </p>
+
+#### Functions -  
++ `DRY` Principle - Don't repeat yourself 
+    
++ `return_type` -> Data type of the value the function is returning as result. For no result functions we mark it as void 
++ `function_name` -> Any name that follows variable naming rules 
++ `list of arguments` -> Values which we are giving to the function 
++ `body of function` -> logic of function 
+    
++ Properties of return 
+    1. As soon as we hit a return statement in function the function call ends 
+    2. A function having a return type as not void it is compulsory to return a value 
+    3. A function cannot return multiple values 
+    
++ Function definition - Function name, return type, list of arguments and body 
++ Function call - the call to the actual function
++ Function signature - Very first line of function definition which includes name, return type and list of arguments 
+    
++ Actual parameters/arguments - parameters passed in the function definition
++ Formal parameters/arguments - parameters passed in the function call 
+    
+
+
 ***
 
 # Feel Free to connect
