@@ -372,6 +372,8 @@
 
 ```
 
++ `set`
+
 ```java
       ArrayList<Integer> row3 = new ArrayList<Integer>();
         row3.add(30);
