@@ -291,7 +291,7 @@
 +  int -> Integer, long -> Long, String, double -> Double, float -> Float
        
 
-`add` `size` 
+`add` `size` `set`
 
 ```java
 
