@@ -290,8 +290,9 @@
         
 +  int -> Integer, long -> Long, String, double -> Double, float -> Float
        
+## Some regular method used in ArrayList
 
-`add` `size` `set`
+`add()` `size()` `get()` `set()` `size()` `remove()` `isEmpty()` `clear()` `lastIndexOf()` `IndexOf` `toArray` 
 
 ```java
 
@@ -371,8 +372,6 @@
         }
 
 ```
-
-+ `set`
 
 ```java
       ArrayList<Integer> row3 = new ArrayList<Integer>();
