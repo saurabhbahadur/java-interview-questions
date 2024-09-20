@@ -223,7 +223,7 @@
 	System.out.println(s.indexOf("b"));
 	
 	System.out.println(s.capacity());
-    System.out.println(s);
+    System.out.println(s);	
 
 
 ```
@@ -237,6 +237,9 @@
 ```
 
 
+### Some important method use in String
+
+`length()` `charAt()` `concat()` `equals()` `equalIgnoreCase()` `substring()` `indexOf()` `lastIndexOf()` `contains()` `startwith()` `endwith()` `toLoweCase()` `toUpperCase()` `trim()` `replace( ch , ch )` `split()` `format()` `compareTo()` `compareToIgnoreCase()`
 
 
 ---
