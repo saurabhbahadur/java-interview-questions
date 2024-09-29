@@ -14,6 +14,7 @@ In this Repository I am making notes for interviews of java and for those who wa
 + ### [Sorting](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Sorting.md)
 + ### [String](https://github.com/saurabhbahadur/java-interview-questions/blob/main/String.md)
 + ### [Recursion](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Recursion.md)
++ ### [Linked List](https://github.com/saurabhbahadur/java-interview-questions/blob/main/LinkedList.md)
 + ### [Encapsulation](https://github.com/saurabhbahadur/java-prep/blob/main/Encapsulation.md)
 + ###  [Constructor](https://github.com/saurabhbahadur/java-prep/blob/main/Constructor.md)
 + ###  [Inheritance](https://github.com/saurabhbahadur/java-prep/blob/main/Inheritance.md)
