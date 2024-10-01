@@ -50,6 +50,21 @@ class linkList {
         }
     }
 
+    // ------------ Length of Linklist
+
+    static int length(Node head) {
+        int count = 0;
+
+        Node curr = head;
+
+        while (curr != null) {
+            count++;
+            curr = curr.next;
+        }
+
+        return count;
+    }
+
     // ------------ Insertion at begining ----------------------
 
     static Node insertAtBegin(Node head, int val) {
@@ -198,6 +213,32 @@ class linkList {
         curr.next = nextNode;
 
         return head;
+    }
+
+    static Node midpointOfLinkedList(Node head) {
+        // <------- Brute Approach -------->
+        // int n = length(head);
+        // int middle = n/2 +1;
+
+        // while (middle>1){
+        // head = head.next;
+        // middle--;
+        // }
+
+        // return head;
+        // }
+
+        // <----- optimized approach (Tortoise and Hare) -------->
+        Node slow = head;
+        Node fast = head;
+
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+
+        return slow;
+
     }
 
 }

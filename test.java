@@ -1,5 +1,7 @@
 public class test {
 
+    
+
     public static void main(String[] args) {
         Node n1 = new Node(3);
         n1.next = new Node(4);
@@ -16,6 +18,9 @@ public class test {
 
         // n1 = linkList.reverse(n1);
         n1 = linkList.removeAtPos(n1, 4);
+
+        int n = linkList.length(n1);
+        System.out.println(n);
 
         linkList.print(n1);
     }
