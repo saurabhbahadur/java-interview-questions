@@ -8,50 +8,14 @@ In this Repository I am making notes for interviews of java and for those who wa
 ## Topics We cover ⬇️
 
 + ### [Basic](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Basics.md)
-+ ### [Introduction to Java](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Introduction%20to%20Java.md)
-+ ### [Array](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Array.md)
-+ ### [Time and Space Complexity](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Time%20%26%20Space%20Complexity.md)
-+ ### [Sorting](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Sorting.md)
-+ ### [String](https://github.com/saurabhbahadur/java-interview-questions/blob/main/String.md)
-+ ### [Recursion](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Recursion.md)
-+ ### [Linked List](https://github.com/saurabhbahadur/java-interview-questions/blob/main/LinkedList.md)
-+ ### [Encapsulation](https://github.com/saurabhbahadur/java-prep/blob/main/Encapsulation.md)
-+ ###  [Constructor](https://github.com/saurabhbahadur/java-prep/blob/main/Constructor.md)
-+ ###  [Inheritance](https://github.com/saurabhbahadur/java-prep/blob/main/Inheritance.md)
-+ ###  [Polymorpphism](https://github.com/saurabhbahadur/java-prep/blob/main/Polymorphism.md)
-+ ###  [Abstraction](https://github.com/saurabhbahadur/java-prep/blob/main/Abstraction.md)
-+ ###  [Interface](https://github.com/saurabhbahadur/java-prep/blob/main/Interface.md)
-+ ###  [Exception](https://github.com/saurabhbahadur/java-prep/blob/main/Exception.md)
-+ ###  [Collection](https://github.com/saurabhbahadur/java-prep/blob/main/Collection.md)
-    + List
-      + Array List
-      + Linked List
-      + Vector
-      + Stack
-    + Queue
-      + Priority Queue
-      + Deque
-      + Array Dequeue
-     + Set
-       + Hash Set
-        + Linked Hashset
-       + Sorted Set
-        + Tree Set
-+ ### [Map](https://github.com/saurabhbahadur/java-prep/blob/main/Map.md)
-  + HashTable
-  + HashMap
-    + LinkedHashMap
-  + SortedMap
-    + NavigableMap
-    + TreeMap
-  
-+ ###  [Generics](https://github.com/saurabhbahadur/java-prep/blob/main/Generics.md)
-+ ###  [Files Operation](https://github.com/saurabhbahadur/java-prep/blob/main/FilesOperation.md)
-+ ### [Serialization & Deserialization](https://github.com/saurabhbahadur/java-prep/blob/main/Serialization%20%26%20Deserialization.md)
-+ ###  [Application Programming Interface (Stream*)](https://github.com/saurabhbahadur/java-prep/blob/main/API.md)
-+ ###  [ENUMS and Annotation](https://github.com/saurabhbahadur/java-prep/blob/main/Enums%20%26%20Annotations.md)
-+ ###  [Thread](https://github.com/saurabhbahadur/java-prep/blob/main/Thread.md)
-
++ ### [Introduction to Java](https://github.com/saurabhbahadur/java-interview-questions/blob/main/JAVA/Introduction%20to%20Java.md)
++ ### [Array](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/Array.md)
++ ### [Time and Space Complexity](https://github.com/saurabhbahadur/java-interview-questions/blob/main/JAVA/Time%20%26%20Space%20Complexity.md)
++ ### [Sorting](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Tech%20%26%20Algo/Sorting.md)
++ ### [String](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/String.md)
++ ### [Recursion](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Tech%20%26%20Algo/Recursion.md)
++ ### [OOPs](https://github.com/saurabhbahadur/java-interview-questions/tree/main/OOPs)
++ ### [Linked List](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/LinkedList.md)
 
 ---
 
