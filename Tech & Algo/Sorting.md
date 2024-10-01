@@ -1,5 +1,5 @@
 <h1 align="center" > Sorting </h1>
-<p align="center" > </p>
+<p align="center" > Algo </p>
 
 
 #### Inbuilt sorting

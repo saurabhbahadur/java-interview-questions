@@ -1,5 +1,5 @@
 <h1 align="center" > Recursion </h1>
-<p align="center" > When a function call itself</p>
+<p align="center" > When a function call itself (Tech)</p>
 
 # When a function call itself
 
