@@ -114,7 +114,91 @@ class linkList {
         return head;
     }
 
-    
+    // -------------- Insertion at position ---------------
+    static Node insertAtPos(Node head, int pos, int val) {
+
+        Node newNode = new Node(val);
+
+        if (pos == 0) {
+            newNode.next = head;
+            head = newNode;
+        } else {
+            Node curr = head;
+            for (int i = 0; i < pos - 1; i++) {
+                curr = curr.next;
+            }
+            newNode.next = curr.next;
+            curr.next = newNode;
+        }
+
+        return head;
+    }
+
+    // ---------- Insert At End -------------------------
+    static Node insertAtEnd(Node head, int val) {
+
+        Node curr = head;
+        Node newNode = new Node(val);
+        if (curr == null) {
+            return newNode;
+        }
+
+        while (curr.next != null) {
+            curr = curr.next;
+        }
+
+        curr.next = newNode;
+
+        return head;
+    }
+
+    // -------------- Reverse List --------------
+    static Node reverse(Node head) {
+
+        Node curr = head;
+        Node prev = null;
+        Node nextNode;
+
+        if (curr == null) {
+            return null;
+        }
+
+        while (curr != null) {
+            nextNode = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = nextNode;
+
+        }
+
+        head = prev;
+
+        return head;
+    }
+
+    // ------------------ Delete at Position ------------
+
+    static Node removeAtPos(Node head, int pos) {
+
+        if (pos == 0) {
+            return head.next;
+        }
+
+        Node curr = head;
+
+        for (int i = 0; curr != null && i < pos - 1; i++) {
+            curr = curr.next;
+        }
+
+        if (curr == null || curr.next == null) {
+            return head;
+        }
+
+        Node nextNode = curr.next.next;
+        curr.next = nextNode;
+
+        return head;
+    }
 
 }
 

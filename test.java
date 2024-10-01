@@ -9,6 +9,14 @@ public class test {
         n1 = linkList.insertAtBegin(n1, 1);
         n1 = linkList.insertAfterKey(n1, 1, 2);
         n1 = linkList.insertBeforeKey(n1, 1, 0);
+
+        n1 = linkList.insertAtPos(n1, 4, 7);
+
+        n1 = linkList.insertAtEnd(n1, 7);
+
+        // n1 = linkList.reverse(n1);
+        n1 = linkList.removeAtPos(n1, 4);
+
         linkList.print(n1);
     }
 }
