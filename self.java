@@ -65,6 +65,57 @@ class linkList {
 
     // ------------ Insertion after key ----------------------
 
+    static Node insertAfterKey(Node head, int key, int val) {
+        Node curr = head;
+        if (curr == null) {
+            System.out.println("No key found");
+            return head;
+        }
+
+        while (curr != null) {
+            if (curr.data == key) {
+                break;
+            }
+            curr = curr.next;
+        }
+
+        Node newNode = new Node(val);
+
+        newNode.next = curr.next;
+        curr.next = newNode;
+
+        return head;
+    }
+
+    // ------------ Insertion before key ----------------------
+
+    static Node insertBeforeKey(Node head, int key, int val) {
+        Node curr = head;
+        Node prev = null;
+        Node newNode = new Node(val);
+
+        if (curr == null) {
+            System.out.println("Key not found!");
+            return head;
+        }
+
+        while (curr != null && curr.data != key) {
+            prev = curr;
+            curr = curr.next;
+        }
+
+        if (curr.data == key) {
+            newNode.next = curr;
+            return newNode;
+        }
+
+        prev.next = newNode;
+
+        return head;
+    }
+
+    
+
 }
 
 class basic {
