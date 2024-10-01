@@ -1,17 +1,75 @@
+import java.util.Scanner;
 
 // ------------------------- Array Operation ----------------
 class array {
 
-    // Revese in array
-    public static void reverse(int arr[]) {
-        for (int i = 0; i < arr.length / 2; i++) {
-            int temp = arr[i];
-            arr[i] = arr[arr.length - i - 1];
-            arr[arr.length - i - 1] = temp;
-        }
+    // <------- Print array ------->
 
+    static void print(int a[]) {
+        int n = a.length;
+        for (int i = 0; i < n; i++) {
+            System.out.print(a[i] + " ");
+        }
+        System.out.println();
+    }
+    // <---------- Print 2D array ---------->
+
+    static void print2d(int a[][]) {
+        int rowLen = a.length;
+        int colLen = a[0].length;
+
+        for (int row = 0; row < rowLen; row++) {
+            for (int col = 0; col < colLen; col++) {
+                System.out.print(a[row][col] + " ");
+            }
+            System.out.println();
+        }
     }
 
+    // <---------- Array sum ---------->
+
+    static int sum(int a[]) {
+        int n = a.length;
+        int sum = 0;
+
+        for (int i = 0; i < n; i++) {
+            sum += a[i];
+        }
+        return sum;
+    }
+
+    // <---------- Reverse Array ---------->
+
+    static void reverse(int a[]) {
+        int n = a.length;
+        for (int i = n - 1; i >= 0; i--) {
+            System.out.println(a[i]);
+        }
+    }
+
+}
+
+// <----------- Sorting Algorithm ------------------------>
+class sorting {
+    // <---------- Selection Sort -------------------------->
+    static int[] selection(int a[]) {
+        int n = a.length;
+
+        for (int i = 0; i < n; i++) {
+            int mni = i;
+            for (int j = i; j < n; j++) {
+                if (a[mni] > a[j]) {
+                    mni = j;
+                }
+            }
+
+            int t = a[i];
+            a[i] = a[mni];
+            a[mni] = t;
+        }
+
+        return a;
+    }
 }
 
 // ------------------------- String Operation ----------------
@@ -305,6 +363,46 @@ public class self {
 
     // ------------------------ Main Method ------------------------
     public static void main(String[] args) {
+
+        // <------------------ Array ------------------------->
+
+        // int a[] = { 1, 5, 3, 2, 4, 6 };
+        // int b[][] = { { 1, 2, 3 },
+        //         { 4, 5, 6 },
+        //         { 7, 8, 9 } };
+        // int n = a.length;
+
+        // array.print(a);
+
+        // array.reverse(a);
+        // array.print2d(b);
+
+        // sorting.selection(a);
+
+        // array.print(a);
+
+        // <------------- Linklist ----------------->
+
+        // Node n1 = new Node(3);
+        // n1.next = new Node(4);
+        // n1.next.next = new Node(5);
+        // n1.next.next.next = new Node(6);
+
+        // n1 = linkList.insertAtBegin(n1, 1);
+        // n1 = linkList.insertAfterKey(n1, 1, 2);
+        // n1 = linkList.insertBeforeKey(n1, 1, 0);
+
+        // n1 = linkList.insertAtPos(n1, 4, 7);
+
+        // n1 = linkList.insertAtEnd(n1, 7);
+
+        // // n1 = linkList.reverse(n1);
+        // n1 = linkList.removeAtPos(n1, 4);
+
+        // int n = linkList.length(n1);
+        // System.out.println(n);
+
+        // linkList.print(n1);
 
     }
 }
