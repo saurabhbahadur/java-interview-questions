@@ -79,38 +79,34 @@ public void setName(String name) {
     }
 ```
 
-<h1 align="center" > Interview Question </h1>
-
-<h1> 1. What is Encapsulation in Java? Why is it called Data hiding?</h1>
-<h5>Ans:</h5> `Encapsulation` refers to the bundling of fields and methods inside a single class. `Data Hiding`
-
-***
-
-### More Topics
-
-+ ### [Encapsulation](https://github.com/saurabhbahadur/java-prep/blob/main/Encapsulation.md)
-+ ###  [Constructor](https://github.com/saurabhbahadur/java-prep/blob/main/Constructor.md)
-+ ###  [Inheritance](https://github.com/saurabhbahadur/java-prep/blob/main/Inheritance.md)
-+ ###  [Polymorpphism](https://github.com/saurabhbahadur/java-prep/blob/main/Polymorphism.md)
-+ ###  [Abstraction](https://github.com/saurabhbahadur/java-prep/blob/main/Abstraction.md)
-+ ###  [Interface](https://github.com/saurabhbahadur/java-prep/blob/main/Interface.md)
-+ ###  [Exception](https://github.com/saurabhbahadur/java-prep/blob/main/Exception.md)
-+ ###  [Collection](https://github.com/saurabhbahadur/java-prep/blob/main/Collection.md)
-+ ### [Map](https://github.com/saurabhbahadur/java-prep/blob/main/Map.md)
-+ ###  [Generics](https://github.com/saurabhbahadur/java-prep/blob/main/Generics.md)
-+ ###  [Files Operation](https://github.com/saurabhbahadur/java-prep/blob/main/FilesOperation.md)
-+ ### [Serialization & Deserialization](https://github.com/saurabhbahadur/java-prep/blob/main/Serialization%20%26%20Deserialization.md)
-+ ###  [Application Programming Interface (Stream*)](https://github.com/saurabhbahadur/java-prep/blob/main/API.md)
-+ ###  [ENUMS and Annotation](https://github.com/saurabhbahadur/java-prep/blob/main/Enums%20%26%20Annotations.md)
-+ ###  [Thread](https://github.com/saurabhbahadur/java-prep/blob/main/Thread.md)
 
 
-***
 
-# Feel Free to connect
-+ ### [LinkedIn](https://www.linkedin.com/in/saurabhbahadur) 
-+ ### [Mail](mailto:singhsaurabhbahadur@gmail.com)
-+ ### [Instagram](https://www.instagram.com/saurabhbahadur_)
-+ ### [Discord](https://discord.gg/aQR27Bg7de)
++ ### [Basic](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Basics.md)
++ ### [Introduction to Java](https://github.com/saurabhbahadur/java-interview-questions/blob/main/JAVA/Introduction%20to%20Java.md)
++ ### [Array](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/Array.md)
++ ### [Time and Space Complexity](https://github.com/saurabhbahadur/java-interview-questions/blob/main/JAVA/Time%20%26%20Space%20Complexity.md)
++ ### [Sorting](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Tech%20%26%20Algo/Sorting.md)
++ ### [String](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/String.md)
++ ### [Recursion](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Tech%20%26%20Algo/Recursion.md)
++ ### [OOPs](https://github.com/saurabhbahadur/java-interview-questions/tree/main/OOPs)
++ ### [Linked List](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/LinkedList.md)
+
+---
 
 
+<h3 align="center">Connect with me:</h3>
+<p align="center">
+<a href="https://twitter.com/saurabhbahadur" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="saurabhbahadur" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/saurabhbahadur" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="saurabhbahadur" height="30" width="40" /></a>
+<a href="https://fb.com/singhsaurabhbahadur" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="singhsaurabhbahadur" height="30" width="40" /></a>
+<a href="https://instagram.com/saurabhbahadur_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="saurabhbahadur_" height="30" width="40" /></a>
+<a href="https://www.youtube.com/c/mighty saur" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="mighty saur" height="30" width="40" /></a>
+<a href="https://www.hackerrank.com/saurabhbahadur" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="saurabhbahadur" height="30" width="40" /></a>
+<a href="https://discord.gg/aQR27Bg7de" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="aQR27Bg7de" height="30" width="40" /></a>
+</p>
+
+
+
+
+---
