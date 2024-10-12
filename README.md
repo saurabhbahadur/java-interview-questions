@@ -1,9 +1,13 @@
 <h1 align="center" > Java Quick Revision notes </h1> 
-In this Repository I am making notes for interviews of java and for those who want to do revision before going for any exam or interview. 
+
+This repository contains comprehensive `Java notes` designed for interview preparation and `quick revision`, making it an ideal resource for anyone preparing for `exams` or `job` interviews. Whether you're brushing up on key concepts or revisiting `important` topics, these notes offer a clear and concise guide to help you succeed.
+
+### [Code](https://github.com/saurabhbahadur/java-interview-questions/blob/main/self.java)
 
 ---
 
-+  Create `demo.java` file and copy paste example and run
++ Create `demo.java` file and copy paste example and run
++ Fork this repository and use [`self.java`](https://github.com/saurabhbahadur/java-interview-questions/blob/main/self.java) for all better codes and algorithm
 
 ## Topics We cover ⬇️
 
