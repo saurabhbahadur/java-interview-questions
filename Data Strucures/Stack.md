@@ -61,8 +61,6 @@
 + The Stack class in Java is part of java.util and inherits from `Vector`. However, it is often recommended to use `Deque` (Double-ended Queue) from `ArrayDeque` as a stack due to better performance and modern design.
 
 
-
-
 ---
 
 
