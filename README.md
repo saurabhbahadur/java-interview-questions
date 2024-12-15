@@ -23,6 +23,11 @@ Whether you're preparing for `exams`, `job interviews`, or enhancing your skills
 
 + ### [Basic](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Basics.md)
 + ### [Introduction to Java](https://github.com/saurabhbahadur/java-interview-questions/blob/main/JAVA/Introduction%20to%20Java.md)
++ ### OOPs
+    + [Abstraction](https://github.com/saurabhbahadur/java-interview-questions/blob/main/OOPs/Abstraction.md)
+    + [Encapsulation](https://github.com/saurabhbahadur/java-interview-questions/blob/main/OOPs/Encapsulation.md)
+    + [Inheritance](https://github.com/saurabhbahadur/java-interview-questions/blob/main/OOPs/Inheritance.md)
+    + [Polymorphism](https://github.com/saurabhbahadur/java-interview-questions/blob/main/OOPs/Polymorphism.md)
 
 <h2 > Data Structures </h2>
 
