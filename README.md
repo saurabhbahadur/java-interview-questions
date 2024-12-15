@@ -14,29 +14,57 @@ Whether you're preparing for `exams`, `job interviews`, or enhancing your skills
 
 `some files may be not open by direct links please go through code till final arrangement`
 
-## Topics We cover ⬇️
+# Topics We cover ⬇️
 
+---
 
-<h2 align="center" > Core Java </h2>
+<h2  > Core Java </h2>
 
 
 + ### [Basic](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Basics.md)
 + ### [Introduction to Java](https://github.com/saurabhbahadur/java-interview-questions/blob/main/JAVA/Introduction%20to%20Java.md)
 
-<h2 align="center" > Data Structures </h2>
+<h2 > Data Structures </h2>
 
-<h2 align="center" >  Algorithm </h2>
+| Theory                 | Codes     |
+|------------------------|-----------|
+| [Array]()              | [h]()     |
+| [String]()             | [h]()     |
+| [Linked List]()        | [h]()     |
+| [Hashing]()            | [h]()     |
+| [Stack]()              | [h]()     |
+| [Queue]()              | [h]()     |
+| [Binary Tree]()        | [h]()     |
+| [Binary Search Tree]() | [h]()     |
+| [Graph]()              | [h]()     |
 
-<h2 align="center" > Technical Subjects  </h2>
-<h2 align="center" > Spring Boot </h2>
-<h2 align="center" > Frontend </h2>
+<h2  > Technolgy & Algorithm </h2>
 
-| Theory    | Codes     |
-|-----------|-----------|
-| [h]()     | [h]()     |
-| [h]()     | [h]()     |
-| [h]()     | [h]()     |
-| [h]()     | [h]()     |
+| Define     | Theory             | Codes     |
+|------------|--------------------|-----------|
+| Algorithm  | [Sorting]()        | [h]()     |
+| Technology | [Recursion]()      | [h]()     |
+| Technology | [Backtracking]()   | [h]()     |
+| Algorithm  | [Two Pointer]()    | [h]()     |
+| Algorithm  | [Binary Search]()  | [h]()     |
+| Algorithm  | [Prefix Sum]()     | [h]()     |
+| Algorithm  | [Sliding Window]() | [h]()     |
+
+
+
+
+<h2  > Technical Subjects  </h2>
+
++ ### [DBMS]()
++ ### [Operating System]()
++ ### [Computer Network]()
+
+<h2  > Spring Boot </h2>
+
+
+
+<h2  > Frontend </h2>
+
 
 
 ---
