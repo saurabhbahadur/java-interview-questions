@@ -18,10 +18,10 @@ Whether you're preparing for `exams`, `job interviews`, or enhancing your skills
 
 ---
 
-<h2  > Core Java </h2>
+<h2 > Core Java </h2>
 
 
-+ ### [Basic](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Basics.md)
++ ### [Basic](https://github.com/saurabhbahadur/java-interview-questions/blob/main/JAVA/Basics.md)
 + ### [Introduction to Java](https://github.com/saurabhbahadur/java-interview-questions/blob/main/JAVA/Introduction%20to%20Java.md)
 + ### OOPs
     + [Abstraction](https://github.com/saurabhbahadur/java-interview-questions/blob/main/OOPs/Abstraction.md)
@@ -31,28 +31,28 @@ Whether you're preparing for `exams`, `job interviews`, or enhancing your skills
 
 <h2 > Data Structures </h2>
 
-| Theory                 | Codes     |
-|------------------------|-----------|
-| [Array](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/Array.md)              | [h]()     |
-| [String](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/String.md)             | [h]()     |
-| [Linked List](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/LinkedList.md)        | [h]()     |
-| [Hashing](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/Hashing.md)            | [h]()     |
-| [Stack](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/Stack.md)              | [h]()     |
-| [Queue](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/Queue.md)              | [h]()     |
-| [Binary Tree](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/BinaryTree.md)        | [h]()     |
-| [Binary Search Tree](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/BinarySearchTree.md) | [h]()     |
-| [Graph](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/Graph.md)              | [h]()     |
+| Theory                 | Codes                                                                                                      |
+|------------------------|------------------------------------------------------------------------------------------------------------|
+| [Array](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/Array.md)              | [Array.java](https://github.com/saurabhbahadur/java-interview-questions/blob/main/MyJava/Array/Array.java) |
+| [String](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/String.md)             | [String.java](https://github.com/saurabhbahadur/java-interview-questions/blob/main/MyJava/String/String.java)                                                                                            |
+| [Linked List](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/LinkedList.md)        | [LinkedList.java](https://github.com/saurabhbahadur/java-interview-questions/blob/main/MyJava/LinkedList/LinkedList.java)                                                                                        |
+| [Hashing](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/Hashing.md)            | [Hashing.java]()                                                                                           |
+| [Stack](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/Stack.md)              | [Stack.java]()                                                                                             |
+| [Queue](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/Queue.md)              | [Queue.java]()                                                                                             |
+| [Binary Tree](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/BinaryTree.md)        | [BinaryTree.java]()                                                                                        |
+| [Binary Search Tree](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/BinarySearchTree.md) | [BinarySearchTree.java]()                                                                                  |
+| [Graph](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/Graph.md)              | [Graph.java]()                                                                                             |
 
 <h2  > Technolgy & Algorithm </h2>
 
-| Define     | Theory             | Codes     |
-|------------|--------------------|-----------|
-| Algorithm  | [Sorting](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Tech%20%26%20Algo/Sorting.md)        | [h]()     |
-| Technology | [Recursion](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Tech%20%26%20Algo/Recursion.md)      | [h]()     |
-| Algorithm  | [Two Pointer](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Tech%20%26%20Algo/TwoPointer.md)    | [h]()     |
-| Algorithm  | [Binary Search](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Tech%20%26%20Algo/BinarySearch.md)  | [h]()     |
-| Technology | [Prefix Sum](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Tech%20%26%20Algo/PrefixSum.md)     | [h]()     |
-| Technology | [Sliding Window](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Tech%20%26%20Algo/SlidingWindow.md) | [h]()     |
+| Define     | Theory             | Codes                                                                                                            |
+|------------|--------------------|------------------------------------------------------------------------------------------------------------------|
+| Algorithm  | [Sorting](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Tech%20%26%20Algo/Sorting.md)        | [Sorting.java](https://github.com/saurabhbahadur/java-interview-questions/blob/main/MyJava/Sorting/Sorting.java) |
+| Technology | [Recursion](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Tech%20%26%20Algo/Recursion.md)      | [Recursion.java]()                                                                                               |
+| Algorithm  | [Two Pointer](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Tech%20%26%20Algo/TwoPointer.md)    | [TwoPointer.java]()                                                                                              |
+| Algorithm  | [Binary Search](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Tech%20%26%20Algo/BinarySearch.md)  | [BinarySearch.java](https://github.com/saurabhbahadur/java-interview-questions/blob/main/MyJava/BinarySearch/BinarySearch.java)                                                                                            |
+| Technology | [Prefix Sum](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Tech%20%26%20Algo/PrefixSum.md)     | [PrefixSum.java]()                                                                                               |
+| Technology | [Sliding Window](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Tech%20%26%20Algo/SlidingWindow.md) | [SlidingWindow.java]()                                                                                           |
 
 
 
