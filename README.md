@@ -1,25 +1,43 @@
 <h1 align="center" > Java Quick Revision notes </h1> 
 
-This repository contains comprehensive `Java notes` designed for interview preparation and `quick revision`, making it an ideal resource for anyone preparing for `exams` or `job` interviews. Whether you're brushing up on key concepts or revisiting `important` topics, these notes offer a clear and concise guide to help you succeed.
+This repository serves as a comprehensive `Java Full Stack` resource, perfect for interview preparation, `quick revision`, and building a strong foundation in Java development. It includes:
 
-### [Code](https://github.com/saurabhbahadur/java-interview-questions/blob/main/self.java)
++ Core Java
++ Data Structures and Algorithms
++ Technical Subjects
++ Frontend Development
++ Spring Boot Framework
+
+Whether you're preparing for `exams`, `job interviews`, or enhancing your skills, these well-structured notes cover key concepts and important topics in a clear and concise manner, ensuring your success.
 
 ---
 
-+ Create `demo.java` file and copy paste example and run
-+ Fork this repository and use [`self.java`](https://github.com/saurabhbahadur/java-interview-questions/blob/main/self.java) for all better codes and algorithm
+`some files may be not open by direct links please go through code till final arrangement`
 
 ## Topics We cover ⬇️
 
+
+<h2 align="center" > Core Java </h2>
+
+
 + ### [Basic](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Basics.md)
 + ### [Introduction to Java](https://github.com/saurabhbahadur/java-interview-questions/blob/main/JAVA/Introduction%20to%20Java.md)
-+ ### [Array](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/Array.md)
-+ ### [Time and Space Complexity](https://github.com/saurabhbahadur/java-interview-questions/blob/main/JAVA/Time%20%26%20Space%20Complexity.md)
-+ ### [Sorting](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Tech%20%26%20Algo/Sorting.md)
-+ ### [String](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/String.md)
-+ ### [Recursion](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Tech%20%26%20Algo/Recursion.md)
-+ ### [OOPs](https://github.com/saurabhbahadur/java-interview-questions/tree/main/OOPs)
-+ ### [Linked List](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Data%20Strucures/LinkedList.md)
+
+<h2 align="center" > Data Structures </h2>
+
+<h2 align="center" >  Algorithm </h2>
+
+<h2 align="center" > Technical Subjects  </h2>
+<h2 align="center" > Spring Boot </h2>
+<h2 align="center" > Frontend </h2>
+
+| Theory    | Codes     |
+|-----------|-----------|
+| [h]()     | [h]()     |
+| [h]()     | [h]()     |
+| [h]()     | [h]()     |
+| [h]()     | [h]()     |
+
 
 ---
 
@@ -39,3 +57,5 @@ This repository contains comprehensive `Java notes` designed for interview prepa
 
 
 ---
+
+22 - Nov 2023
