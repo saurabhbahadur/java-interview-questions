@@ -190,6 +190,12 @@ public class StudentRequestDto {
 
 ```
 
+
+| Annotation               | Define                                                                                        |
+|--------------------------|-----------------------------------------------------------------------------------------------|
+| `@Data`                  | It is used for getter/setter and constructor injection. Lombok dependency has this annotation |
+
+
 # Converters
 
 + Create `Converters` package.
@@ -247,6 +253,12 @@ public interface StudentRepository extends JpaRepository<Student , Integer> {
 
 
 ```
+
+
+| Annotation    | Define                                                               |
+|---------------|----------------------------------------------------------------------|
+| `@Repository` | It is used to declare for that this interface is used for Repository |
+
 
 # Service
 
@@ -342,6 +354,11 @@ public class StudentService {
 ```
 
 
+| Annotation | Define                                                                               |
+|------------|--------------------------------------------------------------------------------------|
+| `@Service` | It is used to declare that this class is used for services where we write api logic. |
+| `@Autowired` | It is used to create internal bean object used in whole package |
+
 
 # Controller
 
@@ -417,6 +434,18 @@ public class StudentController {
 
 
 ```
+
+
+| Annotation                         | Define                                                      |
+|------------------------------------|-------------------------------------------------------------|
+| `@RestController`                  | It is used for declaring that this class work as controller |
+| `@RequestMapping("/student/apis")` | It is used to give path for api.                            |
+| `@GetMapping("/find/{id}")`        | It is used to read operation from database                  |
+| `@PostMapping("/save")`            | It is used to create operation from database                |
+| `@DeleteMapping("/delete/{id}")`   | It is used to delete operation from database                |
+| `@PutMapping("/update/{id}")`      | It is used to update operation from database                |
+
+***
 
 
 
