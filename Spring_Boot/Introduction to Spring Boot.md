@@ -79,7 +79,6 @@
       + It can create any number of object instances
 
 
-<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="saurabhbahadur_" height="30" width="40" />
 
 
 
