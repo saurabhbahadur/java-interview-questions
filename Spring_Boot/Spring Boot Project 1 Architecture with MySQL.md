@@ -161,11 +161,262 @@ public class Card {
 # RequestDto
 
 + Create `RequestDto` package
-+ Now create every class which you want to create table in database.
-+ Let as take one example of `StudentRequestDto` class
-+ For creating complete database in spring boot we use so many annotation.
++ Now create every class which you want to take input request form client/Postman.
++ Let as take one example of `StudentRequestDto` class.
++ It is used to take input request field.
++ DTO - Data Transfer Object
++ Use that variable which you want to take as a user-input.
+
+### StudentRequestDto
+
+```java
+package com.mighty.student_library_management_system.requestdto;
+
+import lombok.Data;
+
+@Data
+public class StudentRequestDto {
+
+    private int name;
+    private int email;
+    private int dob;
+    private int gender;
+    private int mobile;
+    private int dept;
 
 
+}
+
+
+```
+
+# Converters
+
++ Create `Converters` package.
++ It converts the coming input request dto into model or entity class which represents database table.
++ Let as take one example of `StudentConverter` class.
++ It converts the studentRequestDto into student model class.
+
+```java
+package com.mighty.student_library_management_system.converters;
+
+import com.mighty.student_library_management_system.model.Student;
+import com.mighty.student_library_management_system.requestdto.StudentRequestDto;
+
+public class StudentConverter {
+
+    public static Student convertsStudentRequestDtoToStudent ( StudentRequestDto studentRequestDto){
+        
+        Student student = new Student();
+        
+        student.setName(studentRequestDto.getName());
+        student.setMobile(studentRequestDto.getMobile());
+        student.setGender(studentRequestDto.getGender());
+        student.setEmail(studentRequestDto.getEmail());
+        student.setDob(studentRequestDto.getDob());
+        student.setDept(studentRequestDto.getDept());
+
+        return student;
+    }
+
+}
+
+
+```
+
+
+# Repository
+
++ Create `Repository` package
++ Create Interface of each model.
++ Let as take one example of `StudentRepository` `Interface`.
++ This interface is used for make `Bean` object for creating API.
++ `JpaRepository` contains all the inbuilt methods for database operation like create , insert , alter , delete everything.
+
+```java
+package com.mighty.student_library_management_system.repository;
+
+import com.mighty.student_library_management_system.model.Student;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface StudentRepository extends JpaRepository<Student , Integer> {
+
+}
+
+
+```
+
+# Service
+
++ Create `Service` package.
++ Now create every class of models for writing api logic in .
++ Let as take one example of `StudentService` class.
+
+```java
+package com.mighty.student_library_management_system.service;
+
+import com.mighty.student_library_management_system.converters.StudentConverter;
+import com.mighty.student_library_management_system.model.Card;
+import com.mighty.student_library_management_system.model.Student;
+import com.mighty.student_library_management_system.repository.StudentRepository;
+import com.mighty.student_library_management_system.requestdto.StudentRequestDto;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+import java.util.Optional;
+
+@Service
+public class StudentService {
+
+    @Autowired
+    private StudentRepository studentRepository;
+
+    public String addStudent(StudentRequestDto studentRequestDto){
+        // we do not save directly studentRequestDto, we have to first convert it to student model class
+        // after that we can save it.
+
+        // convert requestdto into model class so that it is saved in database
+        Student student = StudentConverter.convertsStudentRequestDtoToStudent(studentRequestDto);
+
+        // whenever student gets created card also gets created
+        Card card = new Card();
+        card.setCardStatus("ACTIVE");
+
+        student.setCard(card);
+        card.setStudent(student);
+
+        studentRepository.save(student);
+        return "Student saved successfully";
+    }
+
+
+    public Student getStudentById(int id){
+        Optional<Student> studentOptional = studentRepository.findById(id);
+        return studentOptional.get();
+    }
+
+    public List<Student> getAllStudents(){
+        List<Student> studentList = studentRepository.findAll();
+        return studentList;
+    }
+
+    public String countStudents(){
+        long count = studentRepository.count();
+        return "Total number of students present are :"+count;
+    }
+
+    public String deleteStudentById(int id){
+        studentRepository.deleteById(id);
+        return "Student with id : "+id+" got deleted";
+    }
+
+    public String updateStudent(int id, StudentRequestDto studentRequestDto){
+        // first find student id is present in database or not
+        // if present the update
+        // else no update
+        Student student = getStudentById(id);
+        if(student!=null){
+            // update operation can be performed
+            student.setName(studentRequestDto.getName());
+            student.setGender(studentRequestDto.getGender());
+            student.setMobile(studentRequestDto.getMobile());
+            student.setEmail(studentRequestDto.getEmail());
+            student.setDob(studentRequestDto.getDob());
+            student.setDept(studentRequestDto.getDept());
+
+            studentRepository.save(student);
+            return "Student updated successfully";
+        } else {
+            // cannot update
+            return " student cannot be updated";
+        }
+    }
+
+
+}
+
+
+```
+
+
+
+# Controller
+
++ Create `Controller` package.
++ We write api in this class.
++ In this class api path also mentioned.
++ Let as take one example of `StudentController` class.
+
+
+```java
+
+package com.mighty.student_library_management_system.controller;
+
+import com.mighty.student_library_management_system.model.Student;
+import com.mighty.student_library_management_system.requestdto.StudentRequestDto;
+import com.mighty.student_library_management_system.service.StudentService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+@RestController
+@RequestMapping("/student/apis")
+public class StudentController {
+
+    @Autowired
+    private StudentService studentService;
+
+    @PostMapping("/save")
+    public String saveStudent(@RequestBody StudentRequestDto studentRequestDto) {
+        String response = studentService.addStudent(studentRequestDto);
+        return response;
+    }
+
+    @GetMapping("/find/{id}")
+    public Student findStudentById(@PathVariable int id){
+        Student student = studentService.getStudentById(id);
+        return student;
+    }
+
+    @GetMapping("/findAll")
+    public List<Student> findAllStudent(){
+        List<Student> studentList = studentService.getAllStudents();
+        return studentList;
+    }
+
+    @GetMapping("/count")
+    public String countStudents(){
+        String response = studentService.countStudents();
+        return response;
+    }
+
+    @DeleteMapping("/delete/{id}")
+    public String deleteStudentById(@PathVariable int id){
+        String response = studentService.deleteStudentById(id);
+        return response;
+    }
+
+    @PutMapping("/update/{id}")
+    public String updateStudentById(@PathVariable int id,@RequestBody StudentRequestDto studentRequestDto){
+        String response = studentService.updateStudent(id,studentRequestDto);
+        return response;
+    }
+
+    // @RequestParam - takes request as query parameters
+//    @PatchMapping("/updatePatch/{id}")
+//    public String updateStudentMobileByPatch(@PathVariable int id,@RequestParam String mobile){
+//        String response = studentService.updateStudentByPatch(id,mobile);
+//        return response;
+//    }
+
+}
+
+
+```
 
 
 
