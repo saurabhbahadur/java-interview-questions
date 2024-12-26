@@ -67,6 +67,7 @@ Whether you're preparing for `exams`, `job interviews`, or enhancing your skills
 
 + ### [Introduction to Spring Boot](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Spring_Boot/Introduction%20to%20Spring%20Boot.md)
 + ### [Annotation](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Spring_Boot/Annotation.md)
++ ### [Architecture of Project 1 with MySQL](https://github.com/saurabhbahadur/java-interview-questions/blob/main/Spring_Boot/Spring%20Boot%20Project%201%20Architecture%20with%20MySQL.md)
 
 
 <h2  > Frontend </h2>
